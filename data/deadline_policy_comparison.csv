@@ -1,0 +1,7 @@
+scenario,total_jobs,on_time_jobs,late_jobs,unfinished_jobs,on_time_pct,average_lateness_seconds,max_lateness_seconds,makespan_seconds,worker_count,max_worker_count,scale_out_requests,startup_delay_seconds
+fixed_1_worker,20,5,15,0,25.0,22.881839,93.39849,195.555113,1,1,0,0.0
+fixed_2_worker,20,9,11,0,45.0,3.365995,10.118791,103.685591,2,2,0,0.0
+fixed_3_worker,20,12,8,0,60.0,2.280689,12.815341,83.339566,3,3,0,0.0
+fixed_4_worker,20,19,1,0,95.0,0.000449,0.008982,68.16927,4,4,0,0.0
+reactive_dynamic_1_to_2,20,9,11,0,45.0,3.365995,10.118791,103.685591,1,2,1,10.0
+deadline_aware_dynamic_1_to_4,20,13,7,0,65.0,1.258869,5.656203,80.144679,1,4,3,10.0

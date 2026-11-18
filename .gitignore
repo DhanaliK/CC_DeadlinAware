@@ -1,0 +1,28 @@
+# Java/Maven
+/target/
+*.class
+*.jar
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local/generated runtime state
+/checkpoints/
+/experiment_runs/
+/experiment_logs/
+*.tmp
+*.bak
+*.backup
+
+# Local dependency/classpath snapshots
+cp.txt
+broker_bytecode.txt

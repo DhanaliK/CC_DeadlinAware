@@ -1,0 +1,212 @@
+{
+  "schema_version": "ccv2.workload.v1",
+  "source": "SYNTHETIC",
+  "seed": 7,
+  "deadline_tier": "MEDIUM",
+  "dataset_split": "TEST",
+  "dataset_group_id": "SYNTHETIC_SEED:7",
+  "runtime_estimate_source": "synthetic model",
+  "jobs": [
+    {
+      "job_id": "seed-7-00000",
+      "job_type": "small",
+      "arrival_time": 0.15038758647989103,
+      "deadline": 2.5522041085553298,
+      "estimated_runtime": 1.096985250988402,
+      "cpu_required": 0.25,
+      "memory_required": 256,
+      "priority": 1
+    },
+    {
+      "job_id": "seed-7-00001",
+      "job_type": "small",
+      "arrival_time": 0.2268209907213808,
+      "deadline": 2.650479931570271,
+      "estimated_runtime": 1.1668979190072326,
+      "cpu_required": 0.25,
+      "memory_required": 256,
+      "priority": 1
+    },
+    {
+      "job_id": "seed-7-00002",
+      "job_type": "small",
+      "arrival_time": 3.7340395485432114,
+      "deadline": 5.999552712773763,
+      "estimated_runtime": 1.3048821834454933,
+      "cpu_required": 0.25,
+      "memory_required": 256,
+      "priority": 1
+    },
+    {
+      "job_id": "seed-7-00003",
+      "job_type": "small",
+      "arrival_time": 11.214815036432865,
+      "deadline": 14.780686780564421,
+      "estimated_runtime": 2.159510244088314,
+      "cpu_required": 0.25,
+      "memory_required": 256,
+      "priority": 1
+    },
+    {
+      "job_id": "seed-7-00004",
+      "job_type": "heavy",
+      "arrival_time": 11.465470422393738,
+      "deadline": 51.62161313442782,
+      "estimated_runtime": 20.706193673687665,
+      "cpu_required": 1.75,
+      "memory_required": 3072,
+      "priority": 1
+    },
+    {
+      "job_id": "seed-7-00005",
+      "job_type": "heavy",
+      "arrival_time": 13.502745724607493,
+      "deadline": 44.00580007893306,
+      "estimated_runtime": 15.1783878612755,
+      "cpu_required": 1.75,
+      "memory_required": 3072,
+      "priority": 1
+    },
+    {
+      "job_id": "seed-7-00006",
+      "job_type": "medium",
+      "arrival_time": 14.618553302934348,
+      "deadline": 23.576804434356617,
+      "estimated_runtime": 4.6044544711590865,
+      "cpu_required": 0.75,
+      "memory_required": 1024,
+      "priority": 2
+    },
+    {
+      "job_id": "seed-7-00007",
+      "job_type": "medium",
+      "arrival_time": 17.781999207610873,
+      "deadline": 35.98745431505013,
+      "estimated_runtime": 7.685213459079451,
+      "cpu_required": 0.75,
+      "memory_required": 1024,
+      "priority": 2
+    },
+    {
+      "job_id": "seed-7-00008",
+      "job_type": "small",
+      "arrival_time": 21.943083430955483,
+      "deadline": 27.222032958654097,
+      "estimated_runtime": 2.1973742509662584,
+      "cpu_required": 0.25,
+      "memory_required": 256,
+      "priority": 1
+    },
+    {
+      "job_id": "seed-7-00009",
+      "job_type": "small",
+      "arrival_time": 22.27279624281125,
+      "deadline": 25.764963328946056,
+      "estimated_runtime": 1.6334877162384882,
+      "cpu_required": 0.25,
+      "memory_required": 256,
+      "priority": 1
+    },
+    {
+      "job_id": "seed-7-00010",
+      "job_type": "small",
+      "arrival_time": 23.974860278137257,
+      "deadline": 31.847163352615638,
+      "estimated_runtime": 3.071488281637089,
+      "cpu_required": 0.25,
+      "memory_required": 256,
+      "priority": 1
+    },
+    {
+      "job_id": "seed-7-00011",
+      "job_type": "small",
+      "arrival_time": 25.709362448567163,
+      "deadline": 31.32210755816152,
+      "estimated_runtime": 2.670413950354704,
+      "cpu_required": 0.25,
+      "memory_required": 256,
+      "priority": 1
+    },
+    {
+      "job_id": "seed-7-00012",
+      "job_type": "heavy",
+      "arrival_time": 27.89155687683751,
+      "deadline": 94.35316752917561,
+      "estimated_runtime": 39.87529871811997,
+      "cpu_required": 1.75,
+      "memory_required": 3072,
+      "priority": 1
+    },
+    {
+      "job_id": "seed-7-00013",
+      "job_type": "heavy",
+      "arrival_time": 28.86639835329282,
+      "deadline": 102.30701139458625,
+      "estimated_runtime": 31.44510701061548,
+      "cpu_required": 1.75,
+      "memory_required": 3072,
+      "priority": 1
+    },
+    {
+      "job_id": "seed-7-00014",
+      "job_type": "small",
+      "arrival_time": 29.115475496863127,
+      "deadline": 32.35438569041002,
+      "estimated_runtime": 1.9454668369236399,
+      "cpu_required": 0.25,
+      "memory_required": 256,
+      "priority": 1
+    },
+    {
+      "job_id": "seed-7-00015",
+      "job_type": "heavy",
+      "arrival_time": 30.10718434768381,
+      "deadline": 75.78889943684062,
+      "estimated_runtime": 17.854433981884494,
+      "cpu_required": 1.75,
+      "memory_required": 3072,
+      "priority": 1
+    },
+    {
+      "job_id": "seed-7-00016",
+      "job_type": "small",
+      "arrival_time": 34.40491895752583,
+      "deadline": 39.0798106090431,
+      "estimated_runtime": 1.8690536672361289,
+      "cpu_required": 0.25,
+      "memory_required": 256,
+      "priority": 1
+    },
+    {
+      "job_id": "seed-7-00017",
+      "job_type": "heavy",
+      "arrival_time": 35.293656736339805,
+      "deadline": 84.47110556604795,
+      "estimated_runtime": 19.11576511675322,
+      "cpu_required": 1.75,
+      "memory_required": 3072,
+      "priority": 1
+    },
+    {
+      "job_id": "seed-7-00018",
+      "job_type": "urgent",
+      "arrival_time": 35.82147550517211,
+      "deadline": 43.019359591719834,
+      "estimated_runtime": 3.8767714674140135,
+      "cpu_required": 0.5,
+      "memory_required": 512,
+      "priority": 10
+    },
+    {
+      "job_id": "seed-7-00019",
+      "job_type": "medium",
+      "arrival_time": 35.82967951540439,
+      "deadline": 53.55758235903674,
+      "estimated_runtime": 8.602265552094565,
+      "cpu_required": 0.75,
+      "memory_required": 1024,
+      "priority": 2
+    }
+  ],
+  "input_hash": "9efa9212b44ff3242ebdb810f596da679e6b4e210cf5bc361b389019dbc4ff52"
+}

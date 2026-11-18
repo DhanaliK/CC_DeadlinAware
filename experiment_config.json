@@ -1,0 +1,31 @@
+﻿{
+  "experiment_name": "configurable_edf_test",
+  "cc_root": "../CC_v3.2",
+
+  "workload": {
+    "source": "SYNTHETIC",
+    "size": 20,
+    "seed": 7,
+    "deadline_tier": "MEDIUM",
+    "dataset_split": "TEST"
+  },
+
+  "simulation": {
+    "scheduling_policy": "EDF",
+    "workers_to_compare": [1, 2, 3, 4],
+    "worker_capacity": 1,
+    "cores_per_worker": 2.0,
+    "startup_delay_seconds": 0,
+    "price_per_core_hour": 0.04,
+    "min_replicas": 1,
+    "max_replicas": 16
+  },
+
+  "cloudsim": {
+    "enabled": true
+  },
+
+  "output": {
+    "directory": "experiment_runs"
+  }
+}

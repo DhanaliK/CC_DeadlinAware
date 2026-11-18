@@ -1,0 +1,62 @@
+{
+  "schema_version": "ccv2.workload.v1",
+  "source": "SYNTHETIC",
+  "seed": 42,
+  "deadline_tier": "MEDIUM",
+  "dataset_split": "TEST",
+  "dataset_group_id": "SYNTHETIC_SEED:42",
+  "runtime_estimate_source": "synthetic model",
+  "jobs": [
+    {
+      "job_id": "seed-42-00000",
+      "job_type": "medium",
+      "arrival_time": 0.5051723713402271,
+      "deadline": 13.515222220965663,
+      "estimated_runtime": 5.398095876687443,
+      "cpu_required": 0.75,
+      "memory_required": 1024,
+      "priority": 2
+    },
+    {
+      "job_id": "seed-42-00001",
+      "job_type": "medium",
+      "arrival_time": 0.9986057632598757,
+      "deadline": 17.432154170861693,
+      "estimated_runtime": 7.622625542386019,
+      "cpu_required": 0.75,
+      "memory_required": 1024,
+      "priority": 2
+    },
+    {
+      "job_id": "seed-42-00002",
+      "job_type": "small",
+      "arrival_time": 2.5732642717446783,
+      "deadline": 4.771775397952224,
+      "estimated_runtime": 1.193231696853271,
+      "cpu_required": 0.25,
+      "memory_required": 256,
+      "priority": 1
+    },
+    {
+      "job_id": "seed-42-00003",
+      "job_type": "medium",
+      "arrival_time": 3.40505444474184,
+      "deadline": 29.436631767941318,
+      "estimated_runtime": 14.698573602708796,
+      "cpu_required": 0.75,
+      "memory_required": 1024,
+      "priority": 2
+    },
+    {
+      "job_id": "seed-42-00004",
+      "job_type": "urgent",
+      "arrival_time": 3.608491814733103,
+      "deadline": 14.97191226392319,
+      "estimated_runtime": 4.487490673610284,
+      "cpu_required": 0.5,
+      "memory_required": 512,
+      "priority": 10
+    }
+  ],
+  "input_hash": "169bbf5fda30664a0674187e706d049327c8b000304d694e3e7825e2a74ec7dc"
+}
